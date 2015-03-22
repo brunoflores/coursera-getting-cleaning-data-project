@@ -2,16 +2,16 @@
 
 A sample of the data set structure:
 
-| Subject  | Activity            | Variable X... |
-|:---------|:--------------------|:--------------|
-| 1        | LAYING              | mean(X)       |
-| 1        | SITTING             | mean(X)       |
-| 1        | STANDING            | mean(X)       |
-| 1        | WALKING             | mean(X)       |
-| 1        | WALKING_DOWNSTAIRS  | mean(X)       |
-| 1        | WALKING_UPSTAIRS    | mean(X)       |
-| 2        | LAYING              | mean(X)       |
-| ...      | ...                 | ...           |
+| Subject  | Activity            | Variable X    | Variable Y... |
+|:---------|:--------------------|:--------------|:--------------|
+| 1        | LAYING              | mean(X)       | mean(Y)       |
+| 1        | SITTING             | mean(X)       | mean(Y)       |
+| 1        | STANDING            | mean(X)       | mean(Y)       |
+| 1        | WALKING             | mean(X)       | mean(Y)       |
+| 1        | WALKING_DOWNSTAIRS  | mean(X)       | mean(Y)       |
+| 1        | WALKING_UPSTAIRS    | mean(X)       | mean(Y)       |
+| 2        | LAYING              | mean(X)       | mean(Y)       |
+| ...      | ...                 | ...           | ...           |
 
 ## Transformations made to clean up the data
 
