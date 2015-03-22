@@ -18,7 +18,7 @@ This script produces a tidy data set using the ['Human Activity Recognition Usin
 
 It leaves the environment with two objects:
 
-* merged_data: Train and Test data merged with variables and avtivities properly labeled - only measurements on the mean and standard deviation for each measurement;
+* merged_data: All Train and Test data merged with variables and activities properly labeled (only measurements on the mean and standard deviation for each measurement);
 * summary_data: Data set used to write the 'tidy_data_set.txt' final file.
 
 > Important: Working Directory must be set to this script's location ;)
