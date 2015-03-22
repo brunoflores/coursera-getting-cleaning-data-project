@@ -1,11 +1,11 @@
 # Getting and Cleaning Data - Course Project (Coursera)
 
 ## Package dependencies
-Package 'dplyr' is used to work with the data. It must be installed from CRAN with:
+Package 'dplyr' is used to work with the data. It must be installed from CRAN:
 
 > install.packages("dplyr")
 
-It's loaded in the script by the 'library(dplyr)' command.
+It's loaded by the script with the 'library(dplyr)' command.
 
 ## run_analysis.R
 
