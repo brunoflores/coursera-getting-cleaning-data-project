@@ -43,7 +43,7 @@ merged_data <- bind_cols(merged_data, data_subjects)
 grouped_data <- group_by(merged_data, Subject, Activity)
 summary_data <- summarise_each(grouped_data, funs(mean))
 # Write to the file system
-write.table(summary_data, 'tidy-data-set.txt', row.names = FALSE)
+write.table(summary_data, 'tidy_data_set.txt', row.names = FALSE)
 
 # Clean up the environment
 rm(activity_labels, 

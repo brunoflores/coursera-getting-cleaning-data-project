@@ -21,7 +21,7 @@ From all the variables present in the original data set, only those related to m
 ## Summary choices made
 
 This tidy data set presents the average of each variable for each activity and each subject.
-Each measurement were first grouped by the subject who performed the action, then by the activy performed.
+Each measurement were first grouped by the subject who performed the action, then by the activity performed.
 The 'mean()' function was used in this calculation.
 
 ## Variables present in the data set

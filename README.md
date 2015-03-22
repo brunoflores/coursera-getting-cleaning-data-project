@@ -13,13 +13,19 @@ This script produces a tidy data set using the ['Human Activity Recognition Usin
 
 * Train and Test data are merged to create one complete data set;
 * All the features are named after the list present in the 'features.txt' file;
-* The activities performed by the subjects are labeled with the data present in the 'activity_labels.txt' file.
+* The activities performed by the subjects are labeled with the data present in the 'activity_labels.txt' file;
+* This tidy data set presents only the average of each variable for each activity and each subject.
 
 It leaves the environment with two objects:
 
 * merged_data: Train and Test data merged with variables and avtivities properly labeled - only measurements on the mean and standard deviation for each measurement;
-* summary_data: Data set used to write the 'tidy-data-set.txt' final file.
+* summary_data: Data set used to write the 'tidy_data_set.txt' final file.
+
+> Important: Working Directory must be set to this script's location ;)
 
 ## load_analysis.R
 
-Script to load the produced data set back into R (tidy-data-set.txt).
+Run this script to load the produced data set back into R (tidy_data_set.txt).
+Or simply run:
+
+> read.table('tidy_data_set.txt', header = TRUE)
